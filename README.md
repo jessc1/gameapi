@@ -26,4 +26,4 @@ http://127.0.0.1:8000/cart/ cart view
 * Django Rest Framework
 
 # Database:
-* MySQL
+* Postgresql
