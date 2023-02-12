@@ -51,9 +51,9 @@ class OrderUpdateSerializer(serializers.ModelSerializer):
         fields = '__all__'
 
 class CartSerializer(serializers.ModelSerializer):
-    class Meta:
+    class Meta:        
         model = Cart
-        fields = '__all__'
+        fields = ['num_of_items','cart_total', 'cart_checkout', 'freight']
 
 
 class CartItemsSerializer(serializers.ModelSerializer):
